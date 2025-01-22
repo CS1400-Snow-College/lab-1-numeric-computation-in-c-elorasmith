@@ -25,3 +25,13 @@ int n = 3;
 int o = (l + m)/n;
 Console.WriteLine(o);
 
+int p = (l + m) / n;
+int q = (l + m) % n;
+Console.WriteLine($"quotient: {p}");
+Console.WriteLine($"remainder: {q}");
+int max = int.MaxValue;
+int min = int.MinValue;
+Console.WriteLine($"The range of integers is {min} to {max}.");
+int what = min - 3;
+Console.WriteLine($"This is an example of underflow: {what}");
+
