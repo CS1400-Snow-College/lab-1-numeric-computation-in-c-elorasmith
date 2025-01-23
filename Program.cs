@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
+// STEP 1
 int a = 18;
 int b = 6;
 int c = a + b;
@@ -12,6 +13,7 @@ Console.WriteLine(e);
 int f = a/b;
 Console.WriteLine(f);
 
+// STEP 2
 int g = 5;
 int h = 4;
 int i = 2;
@@ -25,6 +27,7 @@ int n = 3;
 int o = (l + m)/n;
 Console.WriteLine(o);
 
+// STEP 3
 int p = (l + m) / n;
 int q = (l + m) % n;
 Console.WriteLine($"quotient: {p}");
@@ -35,6 +38,7 @@ Console.WriteLine($"The range of integers is {min} to {max}.");
 int what = min - 3;
 Console.WriteLine($"This is an example of underflow: {what}");
 
+//STEP 4
 double r = 5;
 double s = 4;
 double t = 2;
@@ -56,3 +60,22 @@ r = 56.89;
 s = 63;
 u = r-s;
 Console.WriteLine(u);
+
+// STEP 5
+decimal MAX = decimal.MaxValue;
+decimal MIN = decimal.MinValue;
+Console.WriteLine($"The range of decimal is {MIN} to {MAX}.");
+r = 1.0;
+s = 3.0;
+Console.WriteLine(r / s);
+decimal v = 1.0M;
+decimal w = 3.0M;
+Console.WriteLine(v / w);
+double radius = 2.50;
+double area = Math.PI*(Math.Pow(radius,2));
+Console.WriteLine(area);
+
+// STEP 6
+radius = 2.50;
+area = Math.PI*radius*radius;
+Console.WriteLine(area);
