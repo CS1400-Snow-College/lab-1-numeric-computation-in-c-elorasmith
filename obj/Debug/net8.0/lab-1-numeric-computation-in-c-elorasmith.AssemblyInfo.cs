@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-1-numeric-computation-in-c-elorasmith")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8d9004e5fbaa0131e3f5eb3e8a2e0cca054c9cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+197a3906ef3b89c8c9d8a0ac7e570eed97b6ffa8")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-1-numeric-computation-in-c-elorasmith")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-1-numeric-computation-in-c-elorasmith")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
